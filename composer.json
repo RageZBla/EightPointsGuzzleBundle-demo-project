@@ -25,7 +25,8 @@
         "symfony/twig-bundle": "4.3.*",
         "symfony/validator": "4.3.*",
         "symfony/web-link": "4.3.*",
-        "symfony/yaml": "4.3.*"
+        "symfony/yaml": "4.3.*",
+        "eightpoints/guzzle-bundle": "dev-223-profiler-add-total-time"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -70,6 +71,12 @@
             "@auto-scripts"
         ]
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../EightPointsGuzzleBundle"
+        }
+    ],
     "conflict": {
         "symfony/symfony": "*"
     },
